@@ -6,7 +6,7 @@ const Signup = () => {
   const emailRef = useRef();
   const passwordRef = useRef();
   const passwordConfirmRef = useRef();
-  const { signup } = useAuth();
+  console.log(useAuth());
 
   function handleSubmit(e) {
     e.preventDefault();
